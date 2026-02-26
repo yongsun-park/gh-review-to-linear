@@ -1,0 +1,20 @@
+{
+  "name": "gh-review-to-linear",
+  "version": "1.0.0",
+  "description": "Automatically create Linear issues from GitHub PR review requests",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "gh-review-to-linear": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
